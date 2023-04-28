@@ -40,7 +40,8 @@ const displayPhones = (phones, dataLimit) => {
                 <p class="card-text">This is a longer card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit longer.</p>
                 <button onclick="loadPhoneDetails('${phone.slug}')" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#phoneDetailsModal">Show Details</button>
-                
+                <button onclick="window.location.href = 'https://www.pickaboo.com/'" type="button" class="btn btn-primary">Buy</button>
+
             </div>
         </div>
         `;
